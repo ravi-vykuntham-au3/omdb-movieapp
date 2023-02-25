@@ -29,7 +29,7 @@ const MovieDetails = () => {
         <div className="movie-details">
            <h2 className="movie-title">{movie.Title}</h2>
            <div className="movie-genre text-white">{movie.Genre}</div>
-           <div className="movie-rating text-white">IMDB :&nbsp;{movie.imdbRating}</div>
+           <div className="movie-rating text-white">OMDB :&nbsp;{movie.imdbRating}</div>
            <div className="movie-runtime text-white">{movie.Runtime}</div>
            <div className="movie-release text-white">{movie.Country},&nbsp;{movie.Year}</div>
            <div className="movie-director text-white">Director:&nbsp;<span className="ash-text">{movie.Director}</span></div>
